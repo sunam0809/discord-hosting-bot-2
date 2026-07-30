@@ -1,0 +1,17 @@
+{
+  "name": "discord-hosting-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for code hosting service",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "uuid": "^11.0.5"
+  }
+}
